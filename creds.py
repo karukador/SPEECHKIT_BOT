@@ -1,12 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
 import json
-import logging  # модуль для сбора логов
-import time  # модуль для работы со временем
-from datetime import datetime  # модуль для работы с датой и временем
+import logging
+import time
+from datetime import datetime
 import requests
-# подтягиваем константы из config-файла
 from config import LOGS, IAM_TOKEN_PATH, FOLDER_ID_PATH, BOT_TOKEN_PATH
 
 # настраиваем запись логов в файл
