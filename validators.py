@@ -1,12 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import logging  # модуль для сбора логов
-import math  # математический модуль для округления
-# подтягиваем константы из config файла
+import logging
+import math
 from config import LOGS, MAX_USERS, MAX_USER_GPT_TOKENS, MAX_USER_STT_BLOCKS, MAX_USER_TTS_SYMBOLS
-# подтягиваем функции для работы с БД
 from database import count_users, count_all_limits
-# подтягиваем функцию для подсчета токенов в списке сообщений
 from yandex_gpt import count_gpt_tokens
 
 # настраиваем запись логов в файл
