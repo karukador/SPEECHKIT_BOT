@@ -32,8 +32,7 @@ def register_comands(message):
     commands = [  # Установка списка команд с областью видимости и описанием
         BotCommand("start", "запуск бота"),
         BotCommand("help", "основная информация о боте"),
-        BotCommand("stt", "прослушать текст"),
-        BotCommand("tts", "озвучить текст")]
+        BotCommand("feedback", "оставить отзыв")]
     bot.set_my_commands(commands)
     BotCommandScope('private', chat_id=message.chat.id)
 
