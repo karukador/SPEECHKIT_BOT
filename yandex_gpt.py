@@ -51,7 +51,3 @@ def ask_gpt(messages):
     except Exception as e:
         logging.error(e)
         return False, "Ошибка при обращении к GPT",  None
-
-
-if __name__ == '__main__':
-    print(count_gpt_tokens([{'role': 'user', 'text': 'Привет'}]))
