@@ -28,7 +28,7 @@ SPEECHKIT_MODEL = "general"  # используем основную верси�
 VOICE = "filipp"  # желаемый голос можно выбрать в списке - https://yandex.cloud/ru/docs/speechkit/tts/voices
 
 # utils
-HOME_DIR = '/home/student/gpt_bot'  # путь к папке с проектом
+HOME_DIR = '/home/student/SPEECHKIT_BOT'  # путь к папке с проектом
 LOGS = f'{HOME_DIR}/logs.log'  # файл для логов
 DB_FILE = f'{HOME_DIR}/messages.db'  # файл для базы данных
 
